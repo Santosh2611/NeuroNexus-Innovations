@@ -24,8 +24,8 @@ This task involves building an AI model that can classify SMS messages as spam o
 
 1. Clone the repository:
    ```
-   git clone https://github.com/Santosh2611/Neuronexus-Innovations.git
-   cd Neuronexus Innovations - Machine Learning
+   git clone https://github.com/Santosh2611/NeuroNexus-Innovations.git
+   cd NeuroNexus-Innovations/NeuroNexus Innovations - Machine Learning
    ```
 
 2. Install the required libraries:
