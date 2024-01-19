@@ -11,6 +11,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 
 # Step 1: Data Exploration
 # Load the dataset
+# Dataset: https://www.kaggle.com/datasets/shantanudhakadd/bank-customer-churn-prediction
 data = pd.read_csv('Churn_Modelling.csv')
 
 # Exploring the data

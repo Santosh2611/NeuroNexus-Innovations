@@ -15,6 +15,7 @@ logging.basicConfig(level=logging.INFO)
 try:
     # Step 1: Data Preprocessing
     # Load the dataset
+    # Dataset: https://www.kaggle.com/datasets/hijest/genre-classification-dataset-imdb
     train_data = pd.read_csv('train_data.txt', sep=' ::: ', names=['ID', 'TITLE', 'GENRE', 'DESCRIPTION'], engine='python').dropna(subset=['DESCRIPTION']).drop_duplicates(subset=['DESCRIPTION']).reset_index(drop=True)
     test_data = pd.read_csv('test_data.txt', sep=' ::: ', names=['ID', 'TITLE', 'DESCRIPTION'], engine='python').reset_index(drop=True)
 

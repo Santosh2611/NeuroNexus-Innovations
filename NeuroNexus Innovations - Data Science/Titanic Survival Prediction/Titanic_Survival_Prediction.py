@@ -16,6 +16,7 @@ from sklearn.svm import SVC
 from sklearn.naive_bayes import GaussianNB
 
 # Load the dataset
+# Dataset: https://www.kaggle.com/datasets/brendan45774/test-file
 data = pd.read_csv('tested.csv')
 
 # Split the data into features and target variable

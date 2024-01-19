@@ -121,6 +121,7 @@ models = {
 }
 
 # Load and preprocess the data
+# Dataset: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
 X_train, X_test, y_train, y_test, df, tfidf_vectorizer = load_and_preprocess_data("spam.csv")
 
 # If data is loaded successfully, evaluate the models
